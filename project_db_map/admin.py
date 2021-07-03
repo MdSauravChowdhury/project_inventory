@@ -1,0 +1,21 @@
+from django.contrib import admin
+from project_db_map.models import (Brand, Client, Companies, Inventory, Labors, ModelPart, Models, Operations,
+                                   Repairs, Status, RepairStatus, RepairLabor, Parts, Messages, Invoice, InventoryOperations, ClientCompany)
+# Register your models here.
+admin.site.register(Brand)
+admin.site.register(Client)
+admin.site.register(Companies)
+admin.site.register(Inventory)
+admin.site.register(Labors)
+admin.site.register(ModelPart)
+admin.site.register(Models)
+admin.site.register(Operations)
+admin.site.register(Repairs)
+admin.site.register(Status)
+admin.site.register(RepairStatus)
+admin.site.register(RepairLabor)
+admin.site.register(Parts)
+admin.site.register(Messages)
+admin.site.register(Invoice)
+admin.site.register(InventoryOperations)
+admin.site.register(ClientCompany)
